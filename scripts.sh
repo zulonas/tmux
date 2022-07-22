@@ -3,6 +3,10 @@
  * TMUX scripts
  */
 
+get_load() {
+    echo $(awk '{print $1}' /proc/loadavg)
+}
+
 toggle_mouse() {
     old=$(tmux show -gv mouse)
     new=""
