@@ -9,10 +9,10 @@ ln -sf ~/tmux/ ~/.tmux_conf_dir
 ```
 
 ### TODO
-- fix multi symlink approach
-- fix clipboad
-- add CPU/Memory/Clipboard indicators
-- add multi tmux session support
+- [ ] fix multi symlink approach
+- [ ] fix clipboad
+- [ ] add CPU/Memory/Clipboard indicators
+- [ ] add multi tmux session support
 
 ### Inspo and references
 - https://github.com/gpakosz/.tmux
